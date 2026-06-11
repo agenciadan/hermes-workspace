@@ -4,6 +4,9 @@
   "description": "Desktop workspace for Hermes Agent — chat, orchestration, and multi-agent coding pipelines",
   "author": "Eric (https://github.com/outsourc-e)",
   "license": "MIT",
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild", "unrs-resolver", "electron", "electron-winstaller", "@tailwindcss/oxide"]
+  },
   "private": true,
   "type": "module",
   "main": "electron/main.cjs",
