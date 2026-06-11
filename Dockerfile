@@ -17,7 +17,7 @@ WORKDIR /app
 
 # Install deps (cache-friendly: copy only manifests first)
 COPY package.json pnpm-lock.yaml* ./
-RUN pnpm install --frozen-lockfile
+RUN pnpm install --frozen-lockfile --allow-build=esbuild --allow-build=unrs-resolver --allow-build=electron --allow-build=electron-winstaller --allow-build=@tailwindcss/oxide
 
 # Copy sources and build
 COPY . .
