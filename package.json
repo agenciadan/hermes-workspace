@@ -1,11 +1,17 @@
 {
   "name": "hermes-workspace",
   "version": "2.3.0",
-  "description": "Desktop workspace for Hermes Agent — chat, orchestration, and multi-agent coding pipelines",
+  "description": "Desktop workspace for Hermes Agent \u2014 chat, orchestration, and multi-agent coding pipelines",
   "author": "Eric (https://github.com/outsourc-e)",
   "license": "MIT",
   "pnpm": {
-    "onlyBuiltDependencies": ["esbuild", "unrs-resolver", "electron", "electron-winstaller", "@tailwindcss/oxide"]
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "unrs-resolver",
+      "electron",
+      "electron-winstaller",
+      "@tailwindcss/oxide"
+    ]
   },
   "private": true,
   "type": "module",
@@ -104,5 +110,6 @@
     "vite": "^7.3.2",
     "vitest": "^3.0.5",
     "web-vitals": "^5.1.0"
-  }
+  },
+  "packageManager": "pnpm@10.15.0"
 }
